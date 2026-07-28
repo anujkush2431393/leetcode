@@ -14,7 +14,7 @@ public:
  void preorder(TreeNode* root , vector<int> &v){
     if(root==NULL)
  {
-    v.push_back(-100000);
+    v.push_back(10001);
     return;
     
  }  
